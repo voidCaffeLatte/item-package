@@ -1,5 +1,5 @@
 # What is ItemPackage
-ItemPackage is the PaperMC plugin that can generate crates containing random items at random locations. You can set items and spawn rates in the crate by using commands or by editing config files.
+ItemPackage allows you to generate crates containing random items at random locations like typical battle royale games. You can set items and spawn rates in the crate by using commands or by editing config files.
 
 # Requirements
 - Paper 1.18.2+
