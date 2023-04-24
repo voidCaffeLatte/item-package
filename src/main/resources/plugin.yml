@@ -1,0 +1,30 @@
+name: ItemPackage
+version: "${version}"
+main: voidcaffelatte.itempackage.ItemPackage
+api-version: 1.18
+authors: [ "${author}" ]
+commands:
+  ip:
+    description: Item Package Command
+    usage: |
+      === Item Package Commands ===
+      - <command> wbplace3d <lot-id> <min-y> <radius> [amount]
+      - <command> wbparachute <lot-id> <min-number-of-items> <max-number-of-items> <spawn-y> <radius> [amount] 
+      - <command> placepoint <lot-id> <min-number-of-items> <max-number-of-items> <point-preset-id>
+      - <command> items [item-id]
+      - <command> exportitem <item-id>
+      - <command> getitem <item-id>
+      - <command> giveitem <item-id> <player-id/selector> [amount]
+      - <command> setitemslot <item-id> <player-id/selector> <inventory-slot>
+      - <command> lots [lot-id]
+      - <command> givelot <lot-id> <player-id/selector>      
+      - <command> setlotitem <lot-id> <item-id> <rate>
+      - <command> removelotitem <lot-id> <item-id>
+      - <command> pointpresets [point-preset-id]
+      - <command> startpointedit <point-preset-id>
+      - <command> endpointedit
+      - <command> queue
+      - <command> clearqueue
+      - <command> reload
+    permission: itempackage.commands
+    permission-message: You don't have the permission.
