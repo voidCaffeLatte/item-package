@@ -11,10 +11,10 @@ ItemPackage allows you to generate crates containing random items at random loca
     - `/ip exportitem <item-id>`
     - The item will be created as `item-id`
     - The item will be overwritten if `item-id` already exists
-- To get or give the item, executing the following commands
+- To get or give the item, execute the following commands
     - `/ip getitem <item-id>`
     - `/ip giveitem <item-id> <player-id/selector> [amount]`
-- To check created items or details of the specified item, executing the following command
+- To check created items or details of the specified item, execute the following command
     - `/ip items [item-id]`
 
 ## Create Lot and register items
